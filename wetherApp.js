@@ -3,7 +3,7 @@ async function loadApi() {
   const cityName = document.getElementById("CN").value;
   console.log(cityName);
   let x = await fetch(
-    "http://api.openweathermap.org/data/2.5/forecast?q=" +
+    "http://tejaking123.github.io/webapp2/api.openweathermap.org/data/2.5/forecast?q=" +
       cityName +
       "&appid=7faded16e58249b40750313781a6f906&units=metric"
   );
